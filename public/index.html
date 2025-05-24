@@ -64,9 +64,28 @@ body::before {
       padding: 10px; margin-top: 10px; font-size: 16px;
     }
     button { background: #444; color: white; border: none; cursor: pointer; }
+
+    
+    #welcomeHeader {
+  position: fixed;
+  top: 20px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10001; /* Ensure it's above OTP overlay */
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  color: #00ffff; /* Bright cyan */
+  text-shadow: 2px 2px 8px rgba(0,255,255,0.5);
+  font-family: 'Segoe UI', sans-serif;
+  pointer-events: none; /* Prevent interaction */
+}
+
+
   </style>
 </head>
 <body>
+  <h1 id="welcomeHeader">Welcome to Subhankar Server</h1>
   <div class="watermark">Confidential - View Only</div>
 
   <div id="otpOverlay">

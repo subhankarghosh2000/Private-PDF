@@ -1,0 +1,20 @@
+{
+  "name": "otp-protected-pdf",
+  "version": "1.0.0",
+  "description": "OTP-gated PDF viewer with restricted access",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "nodemailer": "^7.0.3",
+    "twilio": "^4.23.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
